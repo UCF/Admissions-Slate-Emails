@@ -1,6 +1,6 @@
 {
   "sync": true,
-  "syncIndex": "http://localhost/admissions-slate-emails/dist/",
+  "syncIndex": "http://localhost/Admissions-Slate-Emails/dist/",
   "juice": {
     "preserveMediaQueries": true,
     "preserveImportant": true,

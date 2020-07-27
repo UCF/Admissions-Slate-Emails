@@ -1,0 +1,49 @@
+// scss-lint:disable all
+
+@import 'variables';
+@import 'mixins';
+@import 'fonts';
+@import 'utilities';
+@import 'components';
+
+
+//
+// Base styles
+//
+
+table {
+  @include mobile-mq() {
+    border-collapse: separate !important;
+  }
+
+  text-align: center;
+  width: 100%;
+}
+
+th,
+td {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+
+//
+// BG modifiers
+//
+.bg-primary {
+  background-color: $brand-primary;
+}
+
+.bg-secondary {
+  background-color: $black;
+}
+
+.bg-faded {
+  background-color: $gray-lighter;
+}
+
+
+//
+//
+//

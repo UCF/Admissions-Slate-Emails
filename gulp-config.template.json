@@ -1,0 +1,26 @@
+{
+  "sync": true,
+  "syncIndex": "http://localhost/admissions-slate-emails/dist/",
+  "juice": {
+    "preserveMediaQueries": true,
+    "preserveImportant": true,
+    "applyWidthAttributes": true,
+    "applyHeightAttributes": true,
+    "applyAttributesTableElements": true,
+    "webResources": {
+      "images": false
+    }
+  },
+  "declassify": {
+    "ignore": [],
+    "attrs": ["class"]
+  },
+  "htmlmin": {
+    "collapseInlineTagWhitespace": true,
+    "collapseWhitespace": true,
+    "conservativeCollapse": true,
+    "maxLineLength": 1000,
+    "preserveLineBreaks": true,
+    "removeComments": true
+  }
+}
